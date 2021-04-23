@@ -1,5 +1,6 @@
 :root {
   --color-white: #fefefe;
   --color-black: #111;
-  --color-primary: #333;
+  --color-primary: hsl(322, 100%, 66%);
+  --color-bg-footer: hsl(192, 100%, 9%);
 }
