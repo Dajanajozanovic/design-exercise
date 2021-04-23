@@ -1,11 +1,83 @@
 .app-header {
-  background: var(--color-primary);
-  color: var(--color-white);
-  padding: 12px;
+  display: grid;
+  grid-column: auto auto;
+  justify-items: center;
+  row-gap: 30px;
+  color: var(--color-black);
+  padding-top: 20px;
+}
+
+.app-header__background-img {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 110%;
+  height: auto;
+}
+
+.app-header__huddle-img {
+  justify-self: start;
+  width: 60%;
+  height: auto;
+}
+
+.app-header__heading__button1 {
+  background-color: var(--color-white);
+  font-size: 0.6rem;
+  box-shadow: 2px 2px 5px lightgray;
+  padding: 2px;
+  padding-top: 4px;
+  border-radius: 18px;
+  text-align: center;
+  height: 24px;
+  width: 15ch;
+  justify-self: end;
 }
 
 .app-header__heading {
-  font-weight: 400;
-  font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 50px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  font-weight: 300;
+  font-size: 1.5rem;
   text-align: center;
+  padding: 0 14px;
+  line-height: 2.2rem;
+}
+
+.app-header__text {
+  font-size: 16px;
+  grid-column: 1 / span 2;
+  margin: 0 12px;
+  margin-bottom: 8px;
+  font-weight: 300;
+  letter-spacing: 0.025rem;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.app-header__heading__button2 {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  width: 70%;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  height: 36px;
+  box-shadow: 2px 2px 7px #808080;
+  padding-top: 8px;
+  text-decoration: none;
+  grid-column: 1 / span 2;
+  margin-bottom: 30px;
+}
+
+.app-header__mockup-img {
+  grid-column: 1 / span 2;
+  width: 90%;
+  height: auto;
+  margin-bottom: 20px;
 }
