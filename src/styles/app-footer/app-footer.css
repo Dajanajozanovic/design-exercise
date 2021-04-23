@@ -2,25 +2,45 @@
   background-color: var(--color-bg-footer);
   display: grid;
   color: var(--color-white);
+  row-gap: 16px;
+  padding: 16px;
 }
 
-/* .app-footer__heading {
+.app-footer__heading {
+  width: 180px;
+  height: 26px;
+}
+
+.app-footer__heading-color {
+  fill: var(--color-white);
 }
 
 .app-footer__text {
-}
-
-.app-footer__address {
+  margin: 0;
 }
 
 .app-footer__contact {
+  display: grid;
+  grid-template-columns: 36px auto;
+  row-gap: 24px;
 }
 
 .app-footer__nav {
+  display: grid;
+  row-gap: 8px;
 }
 
 .app-footer__nav-item {
+  color: var(--color-white);
+  text-decoration: none;
 }
 
 .app-footer__social-media {
-} */
+  display: flex;
+  justify-content: space-around;
+}
+
+.app-footer__copyright {
+  font-size: 0.75rem;
+  text-align: center;
+}
