@@ -1,9 +1,19 @@
 .app-header {
+  display: grid;
+  grid-column: auto auto;
+  gap: 50px;
   color: var(--color-black);
   padding: 12px;
 }
 
+.app-header__text {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
 .app-header__heading {
+  grid-column-start: 1;
+  grid-column-end: 3;
   font-weight: 400;
   font-size: 1.2rem;
   text-align: center;
@@ -22,22 +32,29 @@
 }
 
 .app-header__heading__button1 {
-  background-color: --color-white;
-  font-size: 80%;
+  background-color: var(--color-white);
+  font-size: 60%;
   border: 1px solid black;
-  padding: 6px 16px;
+  padding: 2px;
   border-radius: 18px;
+  text-align: center;
 }
 
 .app-header__heading__button2 {
-  background-color: --color-white;
-  font-size: 80%;
-  border: 1px solid black;
-  padding: 6px 16px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: var(--color-pink);
+  color: white;
+  font-size: 75%;
+  padding: 8px 25px;
   border-radius: 18px;
+  margin: 0 50px;
+  text-align: center;
 }
 
 .app-header__mockup-img {
+  grid-column-start: 1;
+  grid-column-end: 3;
   width: 90%;
   height: auto;
 }
