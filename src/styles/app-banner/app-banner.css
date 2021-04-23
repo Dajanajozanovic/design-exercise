@@ -1,0 +1,30 @@
+.app-banner {
+  display: grid;
+  justify-items: center;
+  row-gap: 20px;
+  padding: 40px 25px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 7px lightgrey;
+}
+
+.app-banner__heading {
+  color: var(--color-black);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.app-banner__button {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  width: 70%;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 0.6rem;
+  height: 36px;
+  box-shadow: 2px 2px 7px #808080;
+  padding-top: 10px;
+}
