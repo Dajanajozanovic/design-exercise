@@ -50,11 +50,17 @@
   "license": "ISC",
   "author": "",
   "contributors": [
-    {
-      "name": "Lene Frei"
-    },
-    {
-      "name": "Jerry Erbs"
-    }
-  ]
+    "Lene Frei",
+    "Jerry Erbs"
+  ],
+  "description": "## Template usage",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dajanajozanovic/design-exercise.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dajanajozanovic/design-exercise/issues"
+  },
+  "homepage": "https://github.com/Dajanajozanovic/design-exercise#readme"
 }
