@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@500;600&display=swap');
 @import './_variables.css';
 @import './_base.css';
 @import './_utility.css';
 
 @import './app-header/app-header.css';
 @import './app-footer/app-footer.css';
+@import './cards/cards.css';
