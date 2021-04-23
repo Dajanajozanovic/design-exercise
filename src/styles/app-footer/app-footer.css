@@ -1,0 +1,26 @@
+.app-footer {
+  background-color: var(--color-bg-footer);
+  display: grid;
+  color: var(--color-white);
+}
+
+/* .app-footer__heading {
+}
+
+.app-footer__text {
+}
+
+.app-footer__address {
+}
+
+.app-footer__contact {
+}
+
+.app-footer__nav {
+}
+
+.app-footer__nav-item {
+}
+
+.app-footer__social-media {
+} */
