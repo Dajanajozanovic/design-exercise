@@ -1,10 +1,12 @@
 .app-header {
   display: grid;
+  position: static;
   grid-column: auto auto;
   justify-items: center;
   row-gap: 30px;
   color: var(--color-black);
-  padding-top: 20px;
+  padding: 0 12px;
+  padding-top: 30px;
 }
 
 .app-header__background-img {
@@ -22,16 +24,13 @@
   height: auto;
 }
 
-.app-header__heading__button1 {
-  background-color: var(--color-white);
-  font-size: 0.6rem;
+.app-header__button1 {
   box-shadow: 2px 2px 5px lightgray;
   padding: 2px;
   padding-top: 4px;
   border-radius: 18px;
-  text-align: center;
   height: 24px;
-  width: 15ch;
+  width: 17ch;
   justify-self: end;
 }
 
@@ -48,7 +47,7 @@
   margin-bottom: 8px;
 }
 
-.app-header__heading__button2 {
+.app-header__button2 {
   background-color: var(--color-primary);
   color: var(--color-white);
   width: 70%;

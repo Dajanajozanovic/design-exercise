@@ -4,6 +4,7 @@
   color: var(--color-white);
   row-gap: 16px;
   padding: 16px;
+  padding-top: 200px;
 }
 
 .app-footer__heading {
