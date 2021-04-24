@@ -11,6 +11,20 @@ body {
   background-color: var(--color-white);
   color: var(--color-black);
   margin: 0;
+  display: grid;
+}
+
+.main-style {
+  background-color: var(--color-white);
+  padding: 50px 16px;
+  padding-bottom: 6px;
+  display: grid;
+  row-gap: 32px;
+}
+
+.aside-style {
+  background-color: var(--color-white);
+  padding: 16px 16px;
 }
 
 h1,
@@ -43,4 +57,10 @@ h3 {
   font-size: 0.8rem;
   text-align: center;
   font-weight: 500;
+}
+
+.call-to-action--special {
+  background-color: var(--color-white);
+  font-size: 0.6rem;
+  font-weight: 700;
 }
