@@ -7,3 +7,5 @@
 @import './app-footer/app-footer.css';
 @import './cards/cards.css';
 @import './app-banner/app-banner.css';
+
+@import './_desktop-view.css';

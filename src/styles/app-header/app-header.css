@@ -1,7 +1,7 @@
 .app-header {
   display: grid;
   position: static;
-  grid-column: auto auto;
+  grid-column: 1fr 1fr;
   justify-items: center;
   row-gap: 30px;
   color: var(--color-black);
