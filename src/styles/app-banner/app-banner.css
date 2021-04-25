@@ -13,6 +13,7 @@
 .app-banner__heading {
   color: var(--color-black);
   margin-bottom: 5px;
+  font-size: 1em;
 }
 
 .app-banner__button {

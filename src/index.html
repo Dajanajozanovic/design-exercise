@@ -10,11 +10,17 @@
 
   <body>
     <header class="app-header header-style">
-      <img
-        class="app-header__background-img"
-        src="../../assets/bg-hero-mobile.svg"
-        alt=""
-      />
+      <picture>
+        <source
+          srcset="./assets/bg-hero-desktop.svg"
+          media="(min-width: 600px)"
+        />
+        <img
+          class="app-header__background-img"
+          src="./assets/bg-hero-mobile.svg"
+          alt=""
+        />
+      </picture>
       <img class="app-header__huddle-img" src="../../assets/logo.svg" alt="" />
       <a
         role="button"
@@ -144,6 +150,7 @@
           />
         </svg>
         +1-543-123-4567 <br />
+
         <svg width="20" height="16" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M18 0H2C.9 0 0 .9 0 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zm0 14h-2V5.2L10 9 4 5.2V14H2V2h1.2L10 6.2 16.8 2H18v12z"
@@ -161,50 +168,47 @@
         <a href="#" class="app-footer__nav-item">Blog</a>
         <a href="#" class="app-footer__nav-item">Contact Us</a>
       </nav>
-      <section class="app-footer__social-media">
-        <svg
-          class="app-footer__social-media-icon"
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewbox="-5 -7 36 36"
-        >
-          <path
-            class="app-footer__social-media-icon-color"
-            d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"
-          />
-        </svg>
-        <svg
-          class="app-footer__social-media-icon"
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewbox="-4 -5 32 32"
-        >
-          <path
-            class="app-footer__social-media-icon-color"
-            d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
-          />
-        </svg>
-        <svg
-          class="app-footer__social-media-icon"
-          xmlns="http://www.w3.org/2000/svg"
-          viewbox="0 0 512 512"
-        >
-          <path
-            class="app-footer__social-media-icon-color"
-            d="M349.33 69.33a93.62 93.62 0 0193.34 93.34v186.66a93.62 93.62 0 01-93.34 93.34H162.67a93.62 93.62 0 01-93.34-93.34V162.67a93.62 93.62 0 0193.34-93.34h186.66m0-37.33H162.67C90.8 32 32 90.8 32 162.67v186.66C32 421.2 90.8 480 162.67 480h186.66C421.2 480 480 421.2 480 349.33V162.67C480 90.8 421.2 32 349.33 32z"
-          />
-          <path
-            class="app-footer__social-media-icon-color"
-            d="M377.33 162.67a28 28 0 1128-28 27.94 27.94 0 01-28 28zM256 181.33A74.67 74.67 0 11181.33 256 74.75 74.75 0 01256 181.33m0-37.33a112 112 0 10112 112 112 112 0 00-112-112z"
-          />
-        </svg>
-      </section>
-
-      <span class="app-footer__copyright">
-        © Copyright 2018 Huddle. All rights reserved.
-      </span>
+      <div class="app-footer__social-media-container">
+        <section class="app-footer__social-media">
+          <svg
+            class="app-footer__social-media-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewbox="-5 -7 36 36"
+          >
+            <path
+              d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"
+            />
+          </svg>
+          <svg
+            class="app-footer__social-media-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewbox="-4 -5 32 32"
+          >
+            <path
+              d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+            />
+          </svg>
+          <svg
+            class="app-footer__social-media-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewbox="0 0 512 512"
+          >
+            <path
+              d="M349.33 69.33a93.62 93.62 0 0193.34 93.34v186.66a93.62 93.62 0 01-93.34 93.34H162.67a93.62 93.62 0 01-93.34-93.34V162.67a93.62 93.62 0 0193.34-93.34h186.66m0-37.33H162.67C90.8 32 32 90.8 32 162.67v186.66C32 421.2 90.8 480 162.67 480h186.66C421.2 480 480 421.2 480 349.33V162.67C480 90.8 421.2 32 349.33 32z"
+            />
+            <path
+              d="M377.33 162.67a28 28 0 1128-28 27.94 27.94 0 01-28 28zM256 181.33A74.67 74.67 0 11181.33 256 74.75 74.75 0 01256 181.33m0-37.33a112 112 0 10112 112 112 112 0 00-112-112z"
+            />
+          </svg>
+        </section>
+        <span class="app-footer__copyright">
+          © Copyright 2018 Huddle. All rights reserved.
+        </span>
+      </div>
     </footer>
   </body>
 </html>
