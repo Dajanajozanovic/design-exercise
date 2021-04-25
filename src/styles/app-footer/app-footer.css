@@ -27,7 +27,6 @@
 .app-footer__contact {
   display: grid;
   grid-template-columns: 38px auto;
-  row-gap: 24px;
   font-style: normal;
 }
 
