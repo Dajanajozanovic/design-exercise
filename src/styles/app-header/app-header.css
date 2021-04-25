@@ -25,7 +25,7 @@
 }
 
 .app-header__button1 {
-  box-shadow: 2px 2px 5px lightgray;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.2);
   padding: 2px;
   padding-top: 4px;
   border-radius: 18px;
@@ -53,7 +53,7 @@
   width: 70%;
   border-radius: 20px;
   height: 36px;
-  box-shadow: 2px 2px 7px #808080;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.2);
   padding-top: 8px;
   text-decoration: none;
   grid-column: 1 / span 2;
