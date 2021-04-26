@@ -65,7 +65,7 @@
   margin: 8px;
   padding: 4px;
   height: 32px;
-  width: auto;
+  width: 32px;
   fill: var(--color-white);
 }
 
