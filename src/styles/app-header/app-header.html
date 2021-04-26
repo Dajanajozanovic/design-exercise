@@ -1,9 +1,16 @@
 <header class="app-header">
-  <img
-    class="app-header__background-img"
-    src="../../assets/bg-hero-mobile.svg"
-    alt=""
-  />
+  <picture>
+    <source
+      srcset="../../assets/bg-hero-desktop.svg"
+      media="(min-width: 600px)"
+    />
+    <img
+      class="app-header__background-img"
+      src="../../assets/bg-hero-mobile.svg"
+      alt=""
+    />
+  </picture>
+
   <img class="app-header__huddle-img" src="../../assets/logo.svg" alt="" />
   <a
     role="button"

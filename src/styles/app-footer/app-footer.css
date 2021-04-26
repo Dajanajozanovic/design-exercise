@@ -5,6 +5,7 @@
   row-gap: 16px;
   padding: 16px;
   padding-top: 200px;
+  padding-bottom: 40px;
 }
 
 .app-footer__heading {
@@ -26,7 +27,6 @@
 .app-footer__contact {
   display: grid;
   grid-template-columns: 38px auto;
-  row-gap: 24px;
   font-style: normal;
 }
 
@@ -43,6 +43,14 @@
 .app-footer__nav-item {
   color: var(--color-white);
   text-decoration: none;
+  font-size: 1.1em;
+}
+
+.app-footer__social-media-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80px;
 }
 
 .app-footer__social-media {
@@ -51,15 +59,13 @@
 }
 
 .app-footer__social-media-icon {
+  background-color: var(--color-bg-footer);
   border: 1px solid var(--color-white);
   border-radius: 50%;
   margin: 8px;
   padding: 4px;
-  height: 36px;
+  height: 32px;
   width: auto;
-}
-
-.app-footer__social-media-icon-color {
   fill: var(--color-white);
 }
 

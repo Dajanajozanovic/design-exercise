@@ -13,6 +13,7 @@
 .app-banner__heading {
   color: var(--color-black);
   margin-bottom: 5px;
+  font-size: 1em;
 }
 
 .app-banner__button {
@@ -21,7 +22,7 @@
   width: 70%;
   border-radius: 20px;
   height: 36px;
-  box-shadow: 2px 2px 7px #808080;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.2);
   padding-top: 10px;
   text-decoration: none;
 }

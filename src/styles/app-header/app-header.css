@@ -5,39 +5,50 @@
   justify-items: center;
   row-gap: 30px;
   color: var(--color-black);
+  background-color: var(--color-cyan);
   padding: 0 12px;
   padding-top: 30px;
 }
 
 .app-header__background-img {
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
-  z-index: -1;
-  width: 110%;
+  z-index: 1;
+  width: 100%;
   height: auto;
 }
 
 .app-header__huddle-img {
   justify-self: start;
+  align-self: center;
   width: 60%;
   height: auto;
+  z-index: 5;
+  grid-row: 1;
+  grid-column: 1;
 }
 
 .app-header__button1 {
-  box-shadow: 2px 2px 5px lightgray;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.2);
   padding: 2px;
   padding-top: 4px;
   border-radius: 18px;
   height: 24px;
   width: 17ch;
   justify-self: end;
+  align-self: center;
+  z-index: 5;
+  grid-row: 1;
+  grid-column: 2;
 }
 
 .app-header__heading {
   margin-top: 50px;
   grid-column: 1 / span 2;
   padding: 0 14px;
+  grid-row: 2;
+  z-index: 5;
 }
 
 .app-header__text {
@@ -45,6 +56,8 @@
   grid-column: 1 / span 2;
   margin: 0 12px;
   margin-bottom: 8px;
+  z-index: 5;
+  grid-row: 3;
 }
 
 .app-header__button2 {
@@ -53,11 +66,15 @@
   width: 70%;
   border-radius: 20px;
   height: 36px;
-  box-shadow: 2px 2px 7px #808080;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.2);
+  margin: 0 12px;
+  padding: 0 8px;
   padding-top: 8px;
   text-decoration: none;
   grid-column: 1 / span 2;
   margin-bottom: 30px;
+  grid-row: 4;
+  z-index: 5;
 }
 
 .app-header__mockup-img {
@@ -65,4 +82,5 @@
   width: 90%;
   height: auto;
   margin-bottom: 20px;
+  z-index: 5;
 }
