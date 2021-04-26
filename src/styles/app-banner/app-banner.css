@@ -26,3 +26,13 @@
   padding-top: 10px;
   text-decoration: none;
 }
+
+@media (min-width: 600px) {
+  .app-banner {
+    width: 50%;
+  }
+  .app-banner__heading {
+    text-align: center;
+    font-size: 1.5em;
+  }
+}
